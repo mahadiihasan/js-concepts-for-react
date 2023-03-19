@@ -24,6 +24,9 @@ const student = {
     name : 'salman khan',
     age : 60,
     movies : ['tere naam', 'wanted']
-
-
 }
+const variableName = 'name';
+
+console.log(student.name); //direct by property
+console.log(student['name']); //via property name string
+console.log(student[variableName]); //via property name in a variable
